@@ -72,8 +72,8 @@ const Hero = () => {
  
  return (
 	<>
-	 <section id="hero" className="noisy">
-		<h1 className="title">MOMITOS</h1>
+	 <section id="hero" className="noisy p-10">
+		<h1 className="title">CAFE</h1>
 		
 		<img
 		 src="/images/left-leaf.png"

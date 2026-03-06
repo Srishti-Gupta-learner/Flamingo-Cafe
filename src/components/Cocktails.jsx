@@ -28,7 +28,7 @@ const Cocktails = () => {
 	 <img src="/images/cocktail-right-leaf.png" alt="r-leaf" id="c-right-leaf" />
 	 
 	 <div className="list">
-		<div className="popular">
+		<div className="popular p-10">
 		 <h2>Most popular cocktails:</h2>
 		 
 		 <ul>
@@ -44,7 +44,7 @@ const Cocktails = () => {
 		 </ul>
 		</div>
 		
-		<div className="loved">
+		<div className="loved p-10">
 		 <h2>Most loved mocktails:</h2>
 		 
 		 <ul>
