@@ -134,11 +134,19 @@ const socials = [
  },
 ];
 
-const allCocktails = [
+const allmenu = [
  {
 	id: 1,
 	name: "Classic Mojito",
 	image: "/images/drink1.png",
+	title: "Simple Ingredients, Bold Flavor",
+	description:
+	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+ },
+ {
+	id: 1,
+	name: "Pasta",
+	image: "/images/pasta.png",
 	title: "Simple Ingredients, Bold Flavor",
 	description:
 	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
@@ -152,9 +160,25 @@ const allCocktails = [
 	 "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
  },
  {
+	id: 1,
+	name: "Dimsums",
+	image: "/images/momo.png",
+	title: "Simple Ingredients, Bold Flavor",
+	description:
+	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+ },
+ {
 	id: 3,
-	name: "Violet Breeze",
-	image: "/images/drink3.png",
+	name: "Munchurian",
+	image: "/images/munchurian.png",
+	title: "Simple Ingredients, Bold Flavor",
+	description:
+	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+ },
+ {
+	id: 3,
+	name: "Spring Roll",
+	image: "/images/springroll.png",
 	title: "Simple Ingredients, Bold Flavor",
 	description:
 	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
@@ -179,5 +203,5 @@ export {
  openingHours,
  storeInfo,
  socials,
- allCocktails,
+ allmenu,
 };
