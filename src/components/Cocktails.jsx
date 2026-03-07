@@ -29,7 +29,7 @@ const Cocktails = () => {
 	 
 	 <div className="list">
 		<div className="popular p-10">
-		 <h2>Most popular cocktails:</h2>
+		 <h2>Most popular :</h2>
 		 
 		 <ul>
 			{cocktailLists.map(({ name, country, detail, price }) => (

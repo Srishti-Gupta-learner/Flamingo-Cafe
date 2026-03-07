@@ -25,9 +25,9 @@ const cocktailLists = [
 	price: "$10",
  },
  {
-	name: "Caten Malbee",
+	name: "White Sausev Pasta",
 	country: "AU",
-	detail: "Battle",
+	detail: "half",
 	price: "$49",
  },
  {
@@ -37,9 +37,9 @@ const cocktailLists = [
 	price: "$20",
  },
  {
-	name: "Irish Guinness",
+	name: "Spring Roll",
 	country: "IE",
-	detail: "600 ml",
+	detail: "half",
 	price: "$29",
  },
 ];
@@ -135,6 +135,14 @@ const socials = [
 ];
 
 const allmenu = [
+	{
+	id: 1,
+	name: "Noodles",
+	image: "/images/noodles.png",
+	title: "Simple Ingredients, Bold Flavor",
+	description:
+	 "A mix of creamy white sauce and tangy tomato puree.",
+ },
  {
 	id: 1,
 	name: "Classic Mojito",
@@ -149,7 +157,7 @@ const allmenu = [
 	image: "/images/pasta.png",
 	title: "Simple Ingredients, Bold Flavor",
 	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+	 "A mix of creamy white sauce and tangy tomato puree.",
  },
  {
 	id: 2,
@@ -165,7 +173,7 @@ const allmenu = [
 	image: "/images/momo.png",
 	title: "Simple Ingredients, Bold Flavor",
 	description:
-	 "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+	 "Kneading a simple flour-and-water dough, creating savory fillings (chicken, shrimp, or veggies) with soy sauce, sesame oil, and aromatics, and steaming them in a basket for 10-15 minutes.",
  },
  {
 	id: 3,
